@@ -1,9 +1,9 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-
+import {Tarea} from './tarea/tarea'
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [Tarea],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
